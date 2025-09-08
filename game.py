@@ -23,7 +23,6 @@ def snowman(snowman_word):
     """
     print("\n--------Let's play Snowman game!--------\n")
 
-    print(snowman_word)
 
     # Track which letters in the word have been guessed correctly. 
     correct_letter_guess_statuses = build_letter_status_dict(snowman_word)
