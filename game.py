@@ -44,7 +44,7 @@ def snowman(snowman_word):
             print(f"You guessed a letter! {user_input} is in the word!\n")
             correct_letter_guess_statuses[user_input] = True
         else: 
-            print(f"\nYou guessed it wrong. The lettter, {user_input} is NOT in the word!\n")
+            print(f"\nYou guessed it wrong. The letter, {user_input} is NOT in the word!\n")
             wrong_guesses_list.append(user_input)
             print(f"You have {SNOWMAN_MAX_WRONG_GUESSES - len(wrong_guesses_list)} tries left.\n")
 
